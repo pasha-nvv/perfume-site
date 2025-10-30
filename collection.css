@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .pages__first__collection {
+    padding-bottom: 110px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pages__first__collection {
+    background-image: url(images/bg-image/bg-image-colection-mobile.jpg);
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products {
+    margin-top: 0;
+  }
+}
+
+.h1__products {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .h1__products {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 576px) {
+  .product__blocks {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product__sale {
+   margin: 1.5rem 12px 0 0;
+  }
+}

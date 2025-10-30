@@ -1,0 +1,134 @@
+.header {
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .header{
+    margin-bottom: 76px;
+  }
+@media (max-width: 576px) {
+    .header{
+      margin-bottom: 30px;
+    }  
+}
+}
+
+.main__contact {
+  text-align: center;
+}
+
+.h1__contact {
+  font-size: 5rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .h1__contact{
+    margin-bottom: 15px;
+  }
+}
+
+.p__contact {
+  margin-top: 0;
+  margin-bottom: 5em;
+}
+
+@media (max-width: 768px) {
+  .p__contact{
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .message{
+    display: block;
+  }
+}
+
+.input__message,
+.input__email {
+  width: 17%;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  padding: 12px 24px;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+  will-change: transform;
+}
+
+.input__email {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .input__message,
+  .input__email{
+    width: 20%;
+  }
+  @media (max-width: 576px) {
+    .input__message,
+    .input__email{
+      width: 30%;
+    }
+  }
+}
+
+.textarea {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+@media (max-width: 768px) {
+  .textarea{
+    margin-bottom: 1.5em;
+  }
+}
+
+.textarea__message {
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  padding-left: 15px;
+  width: 39.5%;
+  height: 179px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .textarea__message{
+    width: 53.5%;
+  }
+  @media (max-width: 576px) {
+    .textarea__message{
+      width: 85.5%;
+    }
+}
+}
+
+.input__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.buy__btn {
+  width: 15%;
+  padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+  .buy__btn{
+    width: 30%;
+  }
+}
+
+.input__message:hover,
+.input__email:hover,
+.textarea__message:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 1px 5px black;
+} 
