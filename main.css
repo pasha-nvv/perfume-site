@@ -267,6 +267,7 @@ body {
   padding: 1em 1.59em;
   letter-spacing: 1px;
   border-radius: 32px;
+  color: black;
   background-color: white;
   border: 0;
   transition: all 0.3s ease;
