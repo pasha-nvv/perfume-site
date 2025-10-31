@@ -5,6 +5,17 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+  .pages__first {
+    min-height: 80vh;
+  }
+}
+@media (max-width: 576px) {
+  .pages__first {
+    min-height: 100vh;
+  }
+}
+
 .page__one {
   display: flex;
   align-items: center;
@@ -21,6 +32,13 @@
 .h1__page__one {
   font-family: "Playfair Display", serif;
 }
+
+@media (max-width: 768px) {
+  .parameters {
+  margin-top: 3.25em;
+  }
+}
+
 
 @media (max-width: 576px) {
 

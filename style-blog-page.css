@@ -9,19 +9,22 @@
 }
 
 
-@media (max-width: 768px) {
-  .buy__parfum {
-    gap: 2rem;
-  }
-}
 @media (max-width: 576px) {
   .buy__parfum {
     gap: 1rem;
   }
 }
 
-.info__block {
-  margin-left: 150px;
+@media (max-width: 768px) {
+  .info__block {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .info__block {
+    margin-left: 0;
+  }
 }
 
 .info {
